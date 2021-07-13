@@ -1,0 +1,37 @@
+.addTodo {
+    padding: 16px;
+    margin-top: 3rem;
+}
+.addTodo input {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 16px;
+    flex: 2 0 250px;
+}
+
+.addTodo form {
+    display: flex;
+}
+
+.addTodo button {
+    color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    margin-left: 16px;
+    padding: 16px;
+    background: #0070f3;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.addTodo button:hover {
+    cursor: pointer;
+    background: #218afc;
+}
+
+.error {
+    color: red;
+    margin-top: 8px;
+}

@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  addTodo(addTodoInput: String!): Todo!
+}
+
+type Query {
+  todo(id: Int!): Todo!
+  todos: [Todo!]!
+}
+
+type Todo {
+  """Todo Description"""
+  description: String!
+  id: Int!
+
+  """Is todo completed"""
+  status: Boolean!
+}
